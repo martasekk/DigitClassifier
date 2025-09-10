@@ -1,0 +1,50 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+numberclassifier/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# TensorFlow / Keras model files
+*.h5
+*.hdf5
+*.keras
+checkpoints/
+saved_model/
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+
+# Custom images (drawing snapshots)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
